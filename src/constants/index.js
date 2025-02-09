@@ -1,16 +1,27 @@
-import project1 from "../assets/projects/Project-360.png";
+import project1 from "../assets/projects/scm.png";
 import project2 from "../assets/projects/Project-SCM.png";
-import project3 from "../assets/projects/Project-Khadi.png";
-import project4 from "../assets/projects/Project-TIDCO.png";
-import project5 from "../assets/projects/Project-Onboarding.png";
-import project6 from "../assets/projects/Project-TwoWheeler.png";
+import project3 from "../assets/projects/raq.png";
+import project4 from "../assets/projects/nov.png";
+import project5 from "../assets/projects/jaffna.png";
+import project6 from "../assets/projects/tcet.png";
+import project7 from "../assets/projects/trip.png";
+import project8 from "../assets/projects/arm.png";
+
 import front1 from "../assets/technologies/html5-logo.png";
 import front2 from "../assets/technologies/CSS3_logo.png";
 import front3 from "../assets/technologies/JavaScript-logo.png";
 import front4 from "../assets/technologies/bootstrap-logo-shadow.png";
 import front5 from "../assets/technologies/tailwind-logo.png";
+import front6 from "../assets/technologies/wordpress.png";
+import front7 from "../assets/technologies/nodejs.png";
+import front8 from "../assets/technologies/nextjs.png";
+import front9 from "../assets/technologies/typescript.png";
+import front10 from "../assets/technologies/jenki.png";
+import front11 from "../assets/technologies/mui.png";
+import front12 from "../assets/technologies/reactjs.png";
+import front13 from "../assets/technologies/expressjs.png";
 import back1 from "../assets/technologies/php-logo.svg";
-import back2 from "../assets/technologies/python-original.svg";
+import back2 from "../assets/technologies/mongo.png";
 import back3 from "../assets/technologies/laravel.svg";
 import back4 from "../assets/technologies/fastapi-white.svg";
 import back5 from "../assets/technologies/mysql-original.svg";
@@ -28,7 +39,7 @@ export const ABOUT_TEXT = `I am a versatile web developer with 5 years of experi
 
 export const EXPERIENCES = [
   {
-    year: "Oct 2022 - Aug 2024",
+    year: "Oct 2022 - Present",
     role: "Senior Software Engineer",
     company: "Compunet Connections",
     direction: "right",
@@ -47,46 +58,68 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "360-Admin Portal",
-    image: project1,
+    title: "Raqamyah 360-Admin Portal",
+    image: project2,
+    link:"https://www.raqamyah.com/",
     description:
       "This web application is an essential tool for managing borrower and investor details in the existing loan application. By providing a user-friendly interface, powerful reporting capabilities, and robust security measures, the application will enable the admin to manage their operations efficiently and effectively.",
-    technologies: ["Python", "FastAPI", "MySql", "MongoDB"],
+    technologies: ["React Js","Type Script","i18n", "vite Js","Third-Party API", "Context", "MUI"],
   },
   {
-    title: "SCM-Loan Portal",
-    image: project2,
+    title: "Raqamyah SCM Buyer And Seller Loan Portal",
+    image: project1,
+    link:"https://www.raqamyah.com/",
     description:
       "The Loan Management System consists of three distinct portals catering to sellers, buyers, and administrators. Sellers can apply for loans on behalf of buyers, while buyers can directly request loans. Administrators oversee the entire process. Integration with external APIs such as Wathq, Gosi, and IBAN verifies financial details, reducing processing times by up to 75%. The system handles three loan types (POS, Flat, Bullet), ensuring efficient loan processing, transparency, and compliance, facilitating seamless communication among all parties involved.",
-    technologies: ["Php", "Laravel", "Javascript", "Ajax", "Bootstrap", "MySql"],
+    technologies: ["React Js", "MUI", "Javascript", "Redux", "i18n", "Third-Party API",],
   },
   {
-    title: "Khadi India",
+    title: "Raqamyah Website",
     image: project3,
+    link:"https://www.raqamyah.com/",
     description:
-      "This system, developed for a state government body, oversees approximately 1000 employees and 500 centers across the state. Its responsibility lies in converting raw materials into finished products, which are subsequently supplied to retail shops for sale to customers. Additionally, the system includes supply chain management reports based on timelines. It features a comprehensive system for managing finished product sales orders and billing for retailer shops, aiming at optimizing operations and sales processes to achieve a 65% increase in efficiency.",
-    technologies: ["Php", "Laravel", "Javascript", "Ajax", "Bootstrap", "MySql"],
+      "Developed the Raqamyah Website, a dynamic and multilingual platform optimized for SEO to cater to diverse audiences across different languages and regions. The website provides a seamless access interface for Users, Investors, and Borrowers. With a focus on multi-language support, the platform uses localized content, clean language-specific URLs, and Google Analytics tags to ensure accurate regional targeting and improved search engine visibility. Reflecting Raqamyah’s mission of driving innovation and operational excellence, the platform serves as a centralized hub for managing resources, tracking progress, and highlighting the organization’s commitment to achieving an increase in overall productivity while reaching a global audience effectively.",
+    technologies: ["Next Js", "React Js", "Javascript", "i18n", "Third-Party API", "MUI", "SEO", "Optimization"],
   },
   {
-    title: "TIDCO",
-    image: project4,
-    description:
-      "Developed for the Tamil Nadu Industrial Development Corporation Ltd, this system handles private company details. It efficiently manages multiple users with distinct roles, each assigned different operations based on their requirements. The system meticulously oversees expenses, investments, and shares of every company registered within it. Additionally, it generates comprehensive reports detailing the profits, expenses, and share market values of each company. Furthermore, the project includes real-time tracking of the day-to-day share market values for all registered companies in the system.",
-    technologies: ["Php", "Laravel", "Javascript", "Ajax", "Bootstrap", "MySql"],
-  },
-  {
-    title: "Onboarding",
+    title: "Jaffna Post",
     image: project5,
+    link:"https://jaffnapost.com/",
     description:
-      "Developed for Hinduja Housing Finance, this system streamlines the employee onboarding process by effectively managing HR personnel, administrators, and employees throughout the organization. It encompasses detailed information on various aspects of onboarding, including PF, ESI, bank details, educational qualifications, and previous work experience. This comprehensive management ensures a smooth onboarding experience for employees. Furthermore, the system generates detailed reports on the onboarding process, conveniently available for download in PDF format.",
-    technologies: ["Php", "Laravel", "Javascript", "Ajax", "Bootstrap", "MSSQL"],
+      "Developed for The Jaffna Post (TJP) began its journey to connect the Jaffna Tamils with the rest of the Lankans living in Sri Lanka and across the globe. The Founder felt a real need for connecting Sri Lankans so that genuine difficulties and the challenges of the people, who dwell in the regions of North and East of the nation, can be addressed in the immediate; and also, in constructive time frames. “We the people for the people” is the right approach that the Founder feels; especially as Sri Lanka is in hot waters. The issues can be solved or be addressed only by the people working together in Sri Lanka and overseas.",
+    technologies: ["WordPress","Php","Javascript", "Ajax", "Bootstrap", "MySql"],
   },
   {
-    title: "Vehicle Finance",
+    title: "TCET",
     image: project6,
+    link:"https://tcet.edu.in/",
     description:
-      "Developed specifically for Hinduja Leyland Finance, the Vehicle Finance project focuses on facilitating loan requests for two-wheelers and three-wheelers. Utilizing PHP and Android technologies, it provides a streamlined platform for marketing agents to handle loan applications for these vehicle types. The system includes authentication methods utilizing Aadhaar or PAN to verify customer details, as well as credit score validation based on these identifiers. Furthermore, it offers multiple user roles to cater to the diverse needs of stakeholders within the organization.",
-    technologies: ["Php", "Slim", "MSSQL"],
+      "Developed website for Thiruvalluvar College of Engineering and Technology, providing a comprehensive gateway to the institution’s academic offerings, campus events, and achievements. The platform is crafted to deliver an intuitive experience for students, faculty, and visitors, reflecting the college’s mission to combine innovation and education",
+      technologies: ["WordPress","Php","Javascript", "Ajax", "Bootstrap", "MySql"],
+  },
+  {
+    title: "ARMCET",
+    image: project8,
+    link:"https://armcet.edu.in/",
+    description:
+      "Developed website for ARM College of Engineering and Technology, providing students, faculty, and visitors with a seamless digital experience. Designed with a focus on simplicity and functionality, the website is your one-stop destination for all academic and campus-related information.",
+      technologies: ["WordPress","Php","Javascript", "Ajax", "Bootstrap", "MySql"],
+  },
+  {
+    title: "Nova",
+    image: project4,
+    link:"https://www.novafreights.com/",
+    description:
+      "Nova, developed to provide seamless freight and logistics solutions for businesses worldwide. Accessible at https://www.novafreights.com/, the site embodies Nova’s commitment to innovation, efficiency, and reliability in global supply chain management.Nova specializes in comprehensive freight services, including air, sea, and road transportation. The platform offers detailed insights into the logistics solutions tailored to meet diverse industry needs. With user-friendly navigation, businesses can easily explore Nova’s capabilities, from cargo handling and customs clearance to warehousing and real-time tracking.",
+      technologies: ["WordPress","Php","Javascript", "Ajax", "Bootstrap", "MySql"],
+  },
+  {
+    title: "Tripheha",
+    image: project7,
+    link:"https://tripheha.com/",
+    description:
+      "Designed with simplicity and functionality, Tripheha offers advanced features like real-time booking confirmations, itinerary management, and 24/7 customer support. Whether you’re traveling solo, with family, or for business, the platform ensures every step of your journey is stress-free and enjoyable.",
+      technologies: ["WordPress","Php","Javascript", "Ajax", "Bootstrap", "MySql"],
   },
 ];
 
@@ -95,12 +128,17 @@ export const FRONTTECH = [
     title: "HTML",
     image: front1,
   }, {
-    title: "CSS",
-    image: front2,
+    title: "React Js",
+    image: front12,
   }, {
     title: "JavaScript",
     image: front3,
-  }, {
+  },
+  {
+    title: "TypeScript",
+    image: front9,
+  },
+   {
     title: "BootStrap",
     image: front4,
   }, 
@@ -110,36 +148,43 @@ export const FRONTTECH = [
   },
   {
     title: "MUI",
-    image: front5,
+    image: front11,
+  },
+  {
+    title: "Next Js",
+    image: front8,
+  },
+  {
+    title: "wordPress",
+    image: front6,
   },
 ];
 
 export const BACKTECH = [
+{
+    title: "Node Js",
+    image: front7,
+  }, 
   {
     title: "PHP",
     image: back1,
-  }, {
-    title: "Python",
-    image: back2,
-  }, {
+  }, 
+  {
     title: "Laravel",
     image: back3,
-  }, {
-    title: "FastAPI",
-    image: back4,
-  }, {
+  }, 
+   {
     title: "MySql",
     image: back5,
-  }, {
-    title: "MSSQL",
-    image: back6,
-  }, {
-    title: "Slim",
-    image: back7,
-  }, {
-    title: "Lumen",
-    image: back8,
-  }
+  }, 
+  {
+    title: "Mongodb",
+    image: back2,
+  }, 
+  {
+    title: "Express Js",
+    image: front13,
+  }, 
 ];
 
 export const CONTACT = {
