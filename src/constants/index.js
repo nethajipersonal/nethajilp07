@@ -18,9 +18,9 @@ import back6 from "../assets/technologies/mssql-server.png";
 import back7 from "../assets/technologies/slim_logo.png";
 import back8 from "../assets/technologies/lumen-logo.png";
 
-export const LINKEDIN_PROFILE = `https://www.linkedin.com/in/vijay-kl-4984ba26b/`;
+export const LINKEDIN_PROFILE = `https://www.linkedin.com/in/nethajilp07`;
 
-export const GITHUB_PROFILE = `https://github.com/vijayKL94`;
+export const GITHUB_PROFILE = `https://github.com/nethajipersonal`;
 
 export const HERO_CONTENT = `I am a passionate front-end developer with expertise in React.js, Next.js, WordPress, and Laravel, specializing in building dynamic, responsive, and SEO-optimized web applications. With a strong foundation in modern front-end technologies, I focus on enhancing performance, accessibility, and search engine visibility to ensure seamless user experiences. My proficiency in state management, component-based architecture, UI/UX best practices, and SEO strategies enables me to craft high-quality, scalable solutions that drive user engagement and business growth.`;
 
@@ -103,8 +103,13 @@ export const FRONTTECH = [
   }, {
     title: "BootStrap",
     image: front4,
-  }, {
+  }, 
+  {
     title: "Tailwind CSS",
+    image: front5,
+  },
+  {
+    title: "MUI",
     image: front5,
   },
 ];
@@ -139,6 +144,6 @@ export const BACKTECH = [
 
 export const CONTACT = {
   address: "Tamil Nadu, India.",
-  phoneNo: "+91 91235 28334",
-  email: "kennedy1.vijay@gmail.com",
+  phoneNo: "+91 8667649812",
+  email: "lpnethaji@gmail.com",
 };

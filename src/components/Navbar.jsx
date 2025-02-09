@@ -1,4 +1,4 @@
-import logo from "../assets/VJLogo.png";
+import logo from "../assets/nethaji-logo.png";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { GITHUB_PROFILE, LINKEDIN_PROFILE } from "../constants";
